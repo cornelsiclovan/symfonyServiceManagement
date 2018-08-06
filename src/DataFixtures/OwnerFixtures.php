@@ -16,7 +16,6 @@ class OwnerFixtures extends BaseFixtures
             $owner->setEmail($this->faker->email);
             $owner->setSlug($owner->getName().'-'.rand(1, 100));
             $owner->setTelephone($this->faker->phoneNumber);
-            $manager->persist($owner);
         });
 
         $manager->flush();

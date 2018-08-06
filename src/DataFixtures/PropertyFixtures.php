@@ -13,7 +13,7 @@ class PropertyFixtures extends BaseFixtures
     {
         $this->createMany(Property::class, 10, function(Property $property) use ($manager){
             $property->setName($this->faker->name(). ' Incorporated');
-            $property->setAddress($this->faker->address());
+            $property->setAddress($this->faker->address);
             $property->setOwner($this->getRandomReference(Owner::class));
         });
         $manager->flush();

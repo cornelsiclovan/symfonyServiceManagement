@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="999078cb-754a-45ff-bc55-65eb1f8e090a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DataFixtures/BaseFixtures.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/remus.iml" afterPath="$PROJECT_DIR$/.idea/remus.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/bundles.php" afterPath="$PROJECT_DIR$/config/bundles.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/symfony.lock" afterPath="$PROJECT_DIR$/symfony.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DataFixtures/OwnerFixtures.php" afterPath="$PROJECT_DIR$/src/DataFixtures/OwnerFixtures.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DataFixtures/PropertyFixtures.php" afterPath="$PROJECT_DIR$/src/DataFixtures/PropertyFixtures.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DataFixtures/StaffFixture.php" afterPath="$PROJECT_DIR$/src/DataFixtures/StaffFixture.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DataFixtures/StaffTypeFixture.php" afterPath="$PROJECT_DIR$/src/DataFixtures/StaffTypeFixture.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,6 +16,40 @@
   </component>
   <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="PropertyFixtures.php" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/src/DataFixtures/PropertyFixtures.php">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="391">
+                    <caret line="23" column="5" lean-forward="false" selection-start-line="21" selection-start-column="3" selection-end-line="23" selection-end-column="5" />
+                    <folding>
+                      <element signature="e#36#57#0#PHP" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="OwnerFixtures.php" pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/src/DataFixtures/OwnerFixtures.php">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="289">
+                    <caret line="17" column="60" lean-forward="false" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
+                    <folding>
+                      <element signature="e#36#57#0#PHP" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
   </component>
   <component name="FileEditorManager">
     <leaf>
@@ -37,8 +66,8 @@
       <file leaf-file-name="StaffFixture.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DataFixtures/StaffFixture.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+            <state relative-caret-position="442">
+              <caret line="26" column="38" lean-forward="true" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
               <folding>
                 <element signature="e#36#57#0#PHP" expanded="true" />
               </folding>
@@ -46,57 +75,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StaffTypeFixture.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="StaffTypeFixture.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DataFixtures/StaffTypeFixture.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+            <state relative-caret-position="85">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PropertyFixtures.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DataFixtures/PropertyFixtures.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding>
-                <element signature="e#36#57#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OwnerFixtures.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DataFixtures/OwnerFixtures.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="60" lean-forward="false" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
-              <folding>
-                <element signature="e#36#57#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Owner.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Entity/Owner.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
-              <folding>
-                <element signature="e#30#78#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseFixtures.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BaseFixtures.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DataFixtures/BaseFixtures.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+            <state relative-caret-position="282">
+              <caret line="33" column="51" lean-forward="false" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="51" />
               <folding>
                 <element signature="e#116#159#0#PHP" expanded="true" />
               </folding>
@@ -106,6 +99,11 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Owner</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -114,10 +112,10 @@
       <list>
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/src/Entity/Owner.php" />
+        <option value="$PROJECT_DIR$/src/DataFixtures/BaseFixtures.php" />
         <option value="$PROJECT_DIR$/src/DataFixtures/OwnerFixtures.php" />
         <option value="$PROJECT_DIR$/src/DataFixtures/PropertyFixtures.php" />
         <option value="$PROJECT_DIR$/src/DataFixtures/StaffFixture.php" />
-        <option value="$PROJECT_DIR$/src/DataFixtures/BaseFixtures.php" />
         <option value="$PROJECT_DIR$/src/DataFixtures/StaffTypeFixture.php" />
       </list>
     </option>
@@ -299,12 +297,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533541788568</updated>
-      <workItem from="1533541789868" duration="12656000" />
+      <workItem from="1533541789868" duration="15706000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12656000" />
+    <option name="totallyTimeSpent" value="15706000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="411" y="0" width="1506" height="1038" extended-state="0" />
@@ -340,7 +338,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/src/DataFixtures/StaffFixture.php</url>
-          <line>19</line>
+          <line>21</line>
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="1" />
@@ -425,7 +423,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/Property.php">
+    <entry file="file://$PROJECT_DIR$/src/Entity/StaffType.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -443,14 +441,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/StaffType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DataFixtures/OwnerFixtures.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -463,18 +453,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DataFixtures/PropertyFixtures.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="391">
+          <caret line="23" column="5" lean-forward="false" selection-start-line="21" selection-start-column="3" selection-end-line="23" selection-end-column="5" />
           <folding>
             <element signature="e#36#57#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/Property.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataFixtures/BaseFixtures.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="33" column="51" lean-forward="false" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="51" />
+          <folding>
+            <element signature="e#116#159#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/DataFixtures/StaffFixture.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+        <state relative-caret-position="442">
+          <caret line="26" column="38" lean-forward="true" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
           <folding>
             <element signature="e#36#57#0#PHP" expanded="true" />
           </folding>
@@ -483,19 +491,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DataFixtures/StaffTypeFixture.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataFixtures/BaseFixtures.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-          <folding>
-            <element signature="e#116#159#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
