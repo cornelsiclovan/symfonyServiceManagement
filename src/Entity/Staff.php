@@ -2,6 +2,8 @@
 
 namespace App\Entity;
 
+use Doctrine\Common\Collections\ArrayCollection;
+use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
@@ -35,6 +37,16 @@ class Staff
      * @ORM\ManyToOne(targetEntity="App\Entity\StaffType", inversedBy="staff")
      */
     private $staffType;
+
+    /**
+     * @ORM\ManyToMany(targetEntity="App\Entity\ActivityLog", mappedBy="staff")
+     */
+    private $activityLogs;
+
+    public function __construct()
+    {
+        $this->activityLogs = new ArrayCollection();
+    }
 
     public function getId()
     {
@@ -85,6 +97,34 @@ class Staff
     public function setStaffType(?StaffType $staffType): self
     {
         $this->staffType = $staffType;
+
+        return $this;
+    }
+
+    /**
+     * @return Collection|ActivityLog[]
+     */
+    public function getActivityLogs(): Collection
+    {
+        return $this->activityLogs;
+    }
+
+    public function addActivityLog(ActivityLog $activityLog): self
+    {
+        if (!$this->activityLogs->contains($activityLog)) {
+            $this->activityLogs[] = $activityLog;
+            $activityLog->addStaff($this);
+        }
+
+        return $this;
+    }
+
+    public function removeActivityLog(ActivityLog $activityLog): self
+    {
+        if ($this->activityLogs->contains($activityLog)) {
+            $this->activityLogs->removeElement($activityLog);
+            $activityLog->removeStaff($this);
+        }
 
         return $this;
     }

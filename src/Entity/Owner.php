@@ -48,9 +48,15 @@ class Owner
      */
     private $properties;
 
+    /**
+     * @ORM\ManyToMany(targetEntity="App\Entity\ActivityLog", mappedBy="owner")
+     */
+    private $activityLogs;
+
     public function __construct()
     {
         $this->properties = new ArrayCollection();
+        $this->activityLogs = new ArrayCollection();
     }
 
     public function getId()
@@ -144,6 +150,34 @@ class Owner
             if ($property->getOwner() === $this) {
                 $property->setOwner(null);
             }
+        }
+
+        return $this;
+    }
+
+    /**
+     * @return Collection|ActivityLog[]
+     */
+    public function getActivityLogs(): Collection
+    {
+        return $this->activityLogs;
+    }
+
+    public function addActivityLog(ActivityLog $activityLog): self
+    {
+        if (!$this->activityLogs->contains($activityLog)) {
+            $this->activityLogs[] = $activityLog;
+            $activityLog->addOwner($this);
+        }
+
+        return $this;
+    }
+
+    public function removeActivityLog(ActivityLog $activityLog): self
+    {
+        if ($this->activityLogs->contains($activityLog)) {
+            $this->activityLogs->removeElement($activityLog);
+            $activityLog->removeOwner($this);
         }
 
         return $this;
